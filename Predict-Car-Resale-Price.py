@@ -147,7 +147,7 @@ if st.button("🚀 PREDICT RESALE PRICE", help="Click to predict the car's resal
         if "Results" in result:
             predicted_price = result["Results"]["WebServiceOutput0"][0]["predicted_price"]
             st_lottie(success_animation, height=150, key="success")
-            st.success(f"✅ Predicted Resale Price: **${predicted_price:,.2f}**")
+            st.success(f"✅ Predicted Resale Price: **Rs.{predicted_price:,.2f}**")
         else:
             st_lottie(error_animation, height=150, key="error")
             st.error("⚠️ Unexpected API response format. Please check the response structure.")
