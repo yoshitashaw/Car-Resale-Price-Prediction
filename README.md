@@ -19,13 +19,11 @@ This project is a **Car Resale Price Prediction** application built using **Stre
 6. Error Handling & Validation: Ensures proper API response formatting and displays meaningful error messages.
 
 ## 🎥 Demo
-![App Preview]( https://car-resale-price-prediction.streamlit.app/)
+Project live at: https://car-resale-price-prediction.streamlit.app/
 
 Languages and tool used are: 
 [![My Skills](https://skillicons.dev/icons?i=python,git,ai,azure)](https://skillicons.dev)
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)
-![Project Screenshot](images/img 1.jpg)
-![Project Screenshot](images/img 2.jpg)
 
 ## 🚀 How to Run Locally
 ### 1️⃣ Clone the Repository
