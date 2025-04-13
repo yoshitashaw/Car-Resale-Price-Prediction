@@ -18,6 +18,11 @@ This project is a **Car Resale Price Prediction** application built using **Stre
 5. Real-Time API Calls: Sends user input to Azure ML and retrieves predictions dynamically.
 6. Error Handling & Validation: Ensures proper API response formatting and displays meaningful error messages.
 
+## Dataset used:
+“The dataset I used contains approximately 205 records with 26 attributes, covering various car specifications such as engine size, horsepower, fuel type, and price. While it's a relatively small dataset, it was ideal for building and deploying a proof-of-concept machine learning model. I focused on data preprocessing, feature selection, and model optimization to ensure high predictive performance despite the dataset size.”
+
+“If this were to be scaled for production, I would consider augmenting the dataset with more extensive real-world vehicle data to improve generalizability.”
+
 ## 🎥 Demo
 Project live at: https://car-resale-price-prediction.streamlit.app/
 
