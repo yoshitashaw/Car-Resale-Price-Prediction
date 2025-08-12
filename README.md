@@ -14,12 +14,12 @@ This project is a **Car Resale Price Prediction** application built using **Stre
 1. AI-Powered Price Prediction: Uses a trained ML model deployed on Azure to estimate resale value.
 2. Interactive UI: Built with Streamlit for a seamless user experience.
 3. Lottie Animations: Engaging visual animations for loading, success, and error messages.
-4. Cloud-Based Deployment: Hosted on Streamlit Community Cloud (Free) or can be deployed on other platforms.
-5. Real-Time API Calls: Sends user input to Azure ML and retrieves predictions dynamically.
+4. Cloud-Based Deployment: Hosted on Streamlit Community Cloud.
+5. Real-Time API Calls: Sends user input fron Streamlit form to Azure ML and retrieves predictions dynamically.
 6. Error Handling & Validation: Ensures proper API response formatting and displays meaningful error messages.
 
 ## Dataset used:
-“The dataset I used contains approximately 205 records with 26 attributes, covering various car specifications such as engine size, horsepower, fuel type, and price. While it's a relatively small dataset, it was ideal for building and deploying a proof-of-concept machine learning model. I focused on data preprocessing, feature selection, and model optimization to ensure high predictive performance despite the dataset size.”
+“The dataset I used contains approximately 205 records with 26 attributes, covering various car specifications such as engine size, horsepower, fuel type, and price. While it's a relatively small dataset, it was ideal for building and deploying a proof-of-concept of machine learning model. I focused on data preprocessing, feature selection, and model optimization to ensure high predictive performance despite the dataset size.”
 
 “If this were to be scaled for production, I would consider augmenting the dataset with more extensive real-world vehicle data to improve generalizability.”
 
@@ -65,7 +65,6 @@ streamlit run app.py
 - **Auth:** Bearer Token (API Key)
 - **Request Format:** JSON payload with car details
 - **Response:** JSON with `predicted_price`
-
 
 ## 🤝 Contribution
 Want to improve the project? Follow these steps:
