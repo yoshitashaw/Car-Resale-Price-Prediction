@@ -1,7 +1,7 @@
 # 🚗 Car Resale Price Prediction
 
 ## 📌 Project Overview
-This project is a **Car Resale Price Prediction** application built using **Streamlit** and **Azure Machine Learning**. Users can input various car features to get an estimated resale value based on a trained machine learning model. The app provides an intuitive UI, real-time predictions, and animated feedback for better user experience.
+This project is a **Car Resale Price Prediction** application built using **Streamlit** and **Azure ML Studio**. Users can input various car features to get an estimated resale value based on a trained machine learning model. The app provides an intuitive UI, real-time predictions, and animated feedback for better user experience.
 
 ## 🏗️ Tech Stack
 - **Frontend:** Streamlit (Python-based UI)
