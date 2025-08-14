@@ -73,3 +73,6 @@ Want to improve the project? Follow these steps:
 3. Commit changes (`git commit -m 'Added new feature'`)
 4. Push to GitHub (`git push origin feature-name`)
 5. Open a Pull Request 🎉
+
+# Why only regression model for the car resale price prediction project ?
+"Since the target variable in this project — the resale price — is a continuous numerical value, regression models are the most appropriate choice. Classification models wouldn’t be suitable because they predict discrete categories, while our goal was to estimate exact price values. I explored multiple regression algorithms, including Linear Regression, Random Forest Regressor, and Gradient Boosting, and selected the one that offered the best balance between accuracy, generalization, and inference speed. Additionally, regression models provide interpretability, which helped in understanding how each feature — like car age, mileage, and fuel type — impacts the predicted price."
